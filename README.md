@@ -28,19 +28,21 @@ of loads if the set of upstream servers changes.
 * Efficiency
 
 # Scaling
-Scalability is the property of a system to handle a growing amount of work by adding resources to the system.
+Scaling is the ability of a system to grow or shrink in size to meet the increasing user requirement. A scalable system has an advantage because it is adaptable to the changing needs or demands of its users. Scaling can be achieved either by adding more resources to the current system, or by adding new systems in the existing one, or by both.
 
-Resources fall into two broad categories :  horizontal and vertical.
 
 ## Horizontal or scale out
 Scaling horizontally means adding more nodes to (or removing nodes from) a system, such as adding a new computer to a distributed software application. An example might involve scaling out from one web server to three. High-performance computing applications, such as seismic analysis and biotechnology, scale workloads horizontally to support tasks that once would have required expensive supercomputers. 
 
 ## Vertical or scale up
 
-Scaling vertically means adding resources to (or removing resources from) a single node, typically involving the addition of CPUs, memory or storage to a single computer.
+In vertical scaling, we add more new resources to the same system i.e, increase the amount of RAM, CPU, GPU and other resources to meet the increased computing requirement. It is easy to accomplish. It also consumes less power.
 
-![Scaling img](https://camo.githubusercontent.com/cf9d8d8f0db8275596a3a3cb163783274b66e57f5bbcafa4015f1b6218220b2c/68747470733a2f2f692e737461636b2e696d6775722e636f6d2f4f6e33744f2e706e67)
-## Benefits of scalable systems
+But, Vertical Scaling does not make the system fault-tolerant, i.e if we are scaling application running with a single server and if that server goes down, our entire system will go down. Also, it is often limited to the capacity of a single machine i.e, scaling beyond that capacity of a machine often involves downtime.
+
+
+![scaling img](https://camo.githubusercontent.com/cf9d8d8f0db8275596a3a3cb163783274b66e57f5bbcafa4015f1b6218220b2c/68747470733a2f2f692e737461636b2e696d6775722e636f6d2f4f6e33744f2e706e67)
+## Benefits of scalable systems : 
 A scalable system provides several benefits :
 
 * Highly customizable infrastructure according to specific customer’s needs.
