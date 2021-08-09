@@ -39,6 +39,7 @@ Scaling horizontally means adding more nodes to (or removing nodes from) a syste
 
 Scaling vertically means adding resources to (or removing resources from) a single node, typically involving the addition of CPUs, memory or storage to a single computer.
 
+![Scaling img](https://camo.githubusercontent.com/cf9d8d8f0db8275596a3a3cb163783274b66e57f5bbcafa4015f1b6218220b2c/68747470733a2f2f692e737461636b2e696d6775722e636f6d2f4f6e33744f2e706e67)
 ## Benefits of scalable systems
 A scalable system provides several benefits :
 
