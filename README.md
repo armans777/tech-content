@@ -42,8 +42,8 @@ But, Vertical Scaling does not make the system fault-tolerant, i.e if we are sca
 
 
 ![scaling img](https://camo.githubusercontent.com/cf9d8d8f0db8275596a3a3cb163783274b66e57f5bbcafa4015f1b6218220b2c/68747470733a2f2f692e737461636b2e696d6775722e636f6d2f4f6e33744f2e706e67)
-## Benefits of scalable systems : 
-A scalable system provides several benefits :
+## Benefits of scalable systems
+A scalable system provides several benefits
 
 * Highly customizable infrastructure according to specific customer’s needs.
 * The flexibility of increasing or decreasing the system power according to the needs of the moment and the customer’s availability.
